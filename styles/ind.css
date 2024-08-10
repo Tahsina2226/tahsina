@@ -1,0 +1,134 @@
+* {
+    max-width: 2500px;
+    background-color: black;
+}
+
+.gray_write {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0px;
+    /* text-align: center; */
+
+}
+
+.white {
+    color: white;
+}
+
+.nav_ver {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Fitness {
+    color: red;
+    /* font-weight: 800; */
+    /* font-size: 45px; */
+}
+
+.link-packet {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding-left: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    background-color: linear-gradient(rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+
+
+
+}
+
+.press-button {
+    border: none;
+    background: rgb(230, 83, 60);
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    width: 92px;
+    height: 30px;
+}
+
+.home-press {
+    font-size: 18px;
+    background: rgb(230, 83, 60);
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    width: 12rem;
+    height: 3.5rem;
+    border: none;
+}
+
+.header_side {
+    padding-left: 275px;
+}
+
+.li {
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    color: white;
+    padding-left: 0px;
+
+}
+
+.cl1 {
+    display: flex;
+}
+
+.right_hand_btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #ffffff1a;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    width: 180px;
+    height: 80px;
+    margin-top: -150px;
+    margin-left: -90px;
+    gap: 1rem;
+    padding-left: 00px;
+
+}
+
+.right_hand_circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: red;
+    border: none;
+}
+
+.right_hand_write {
+    background: rgba(48, 48, 48, 0.54);
+}
+
+.sholder-btn {
+    /* margin-top: 0px;
+    padding-top: 0px; */
+    width: 180px;
+    /* min-width: fit-content; */
+    height: 80px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: -360px;
+    margin-left: 250px;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+.vid-500 {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+}
