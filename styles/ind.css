@@ -3,6 +3,8 @@
     background-color: black;
 }
 
+/* banner er css part */
+
 .gray_write {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
@@ -16,7 +18,7 @@
     color: white;
 }
 
-.nav_ver {
+.nav_ber {
     display: flex;
     justify-content: space-around;
 }
