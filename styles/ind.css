@@ -1,9 +1,32 @@
-* {
+
+/* * {
     max-width: 2500px;
     background-color: black;
+} */
+
+
+.white {
+    color: white;
 }
 
-/* banner er css part */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.nav_ber {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inter-fonts {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    background-color: black;
+    color: white;
+}
+
+
 
 .gray_write {
     color: rgba(255, 255, 255, 0.5);
@@ -14,14 +37,7 @@
 
 }
 
-.white {
-    color: white;
-}
 
-.nav_ber {
-    display: flex;
-    justify-content: space-around;
-}
 
 .Fitness {
     color: red;
@@ -36,17 +52,17 @@
     gap: 35px;
     padding-left: 0px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 25px;
+    border-radius: 30px;
     background-color: linear-gradient(rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 
 
 
 }
 
-.press-button {
+.press-button{
     border: none;
     background: rgb(230, 83, 60);
-    border-radius: 15px;
+    border-radius: 50px;
     text-align: center;
     color: white;
     width: 92px;
@@ -56,7 +72,7 @@
 .home-press {
     font-size: 18px;
     background: rgb(230, 83, 60);
-    border-radius: 30px;
+    border-radius: 50px;
     text-align: center;
     color: white;
     width: 12rem;
@@ -86,7 +102,7 @@
     flex-direction: row;
     align-items: center;
     border: 1px solid #ffffff1a;
-    border-radius: 12px;
+    border-radius: 18px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
     width: 180px;
@@ -101,13 +117,13 @@
 .right_hand_circle {
     height: 40px;
     width: 40px;
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: red;
     border: none;
 }
 
 .right_hand_write {
-    background: rgba(48, 48, 48, 0.54);
+    /* background: rgba(48, 48, 48, 0.54); */
 }
 
 .sholder-btn {
@@ -117,7 +133,7 @@
     /* min-width: fit-content; */
     height: 80px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
+    border-radius: 15px;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
     margin-top: -360px;
@@ -133,4 +149,286 @@
     font-weight: 700;
     padding: 0px;
     margin: 0px;
+}
+
+.havit1 {
+    /* border: 1px solid blue; */
+    padding-top: 18rem;
+    margin-top: 5rem;
+    padding-left: 18rem;
+    width: 950px;
+    height: 50px;
+}
+
+.havit2 {
+    /* border: 1px solid blue; */
+    text-align: center;
+    padding-left: 1px;
+}
+
+.havit3 {
+    /* border: 1px solid blue; */
+    padding-left: 180px;
+
+}
+
+.main3 {
+    border: 1px solid brown;
+}
+
+.they-are-4 {
+    padding-top: 120px;
+    display: flex;
+    padding-left: 16rem;
+    padding-right: 16rem;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.gol {
+    border-radius: 50%;
+}
+
+.Mile_Easily_con {
+    padding-left: 50px;
+    /* background: rgba(48, 48, 48, 0.54); */
+}
+
+.Mile_Easily {
+    /* background: rgba(48, 48, 48, 0.54); */
+}
+
+.anyone {
+    /* background: rgba(48, 48, 48, 0.54); */
+}
+
+.Run_part {
+    margin-left: 230px;
+    width: 1020px;
+    height: 341px;
+    align-items: center;
+    border-radius: 20px;
+    background: rgb(34, 34, 34);
+    display: flex;
+}
+
+.run_pictue {
+    border-radius: 20px;
+    height: 312px;
+    width: 366px;
+    padding-right: 20px;
+    padding-top: 40px;
+
+}
+
+.src {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bmi {
+    text-align: center;
+}
+
+.bmi_heade {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.ekta {
+    background-color: brown;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.calc {
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.calc2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grid {
+
+    padding-top: 2rem;
+}
+
+.Bmi_grid {
+
+    display: grid;
+
+    grid-template-columns: 150px 150px;
+
+
+
+}
+
+.product {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+
+}
+
+.Bmi_grid2 {
+
+    margin-top: 3rem;
+    margin-left: 3rem;
+    /* margin-right: 5rem; */
+
+}
+
+.tahsina {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.bmi_give {
+    border-radius: 15px;
+    width: 282.5px;
+    height: 48px;
+    position: static;
+    margin-top: 5px;
+    margin-left: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 40px 12px 20px;
+    align-items: center;
+    border: none;
+
+}
+
+.Me {
+    text-align: center;
+}
+
+.front {
+
+    font-size: 40px;
+    font-weight: 900;
+
+}
+
+.traine-1 {
+
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 80%;
+    align-items: center;
+    width: 1090px;
+    height: 604px;
+    margin-left: 200px;
+
+}
+
+.traine-0 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.traine1 {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 326.67px;
+    height: 272px;
+    border-radius: 30px;
+}
+
+.traine1_name {
+    bottom: 17.20rem;
+    left: 20px;
+    position: absolute;
+
+}
+
+.traine2_name {
+    bottom: 17.20rem;
+    left: 26.25rem;
+    position: absolute;
+
+}
+
+.traine3_name {
+    bottom: 17.20rem;
+    left: 53.125rem;
+    position: absolute;
+
+}
+
+.traine4_name {
+    bottom: 1px;
+    left: 20px;
+    position: absolute;
+
+}
+
+.traine5_name {
+    bottom: 1px;
+    left: 26.25rem;
+    position: absolute;
+
+}
+
+.traine6_name {
+    bottom: 1px;
+    left: 53.125rem;
+    position: absolute;
+
+}
+
+.footer1 {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    height: 400px;
+    /* border-radius: 15px; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    border-width: 2px solid blue;
+    /* rgba(255, 255, 255, 0.1); */
+    /* border-width: 70%; */
+    border: width 40%;
+}
+
+.footer3 {
+    color: red;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.Get-Started {
+    padding-top: 20px;
+    padding-left: 42px;
+}
+
+.order-list {
+    list-style: none;
+}
+
+.inky {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.footer4 {
+    background: rgba(255, 255, 255, 0.1);
+    height: 50px;
+    width: 100%;
+}
+
+.footer5 {
+    width: 80%;
+    margin: auto;
+    border-color: gray;
+}
+
+.footer6 {
+    text-align: center;
+    /* padding-top: 0px; */
 }
