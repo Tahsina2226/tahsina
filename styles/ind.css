@@ -59,7 +59,7 @@
 
 }
 
-.press-button{
+.home-pres{
     border: none;
     background: rgb(230, 83, 60);
     border-radius: 50px;
@@ -168,7 +168,7 @@
 
 .havit3 {
     /* border: 1px solid blue; */
-    padding-left: 180px;
+    padding-left: 250px;
 
 }
 
@@ -254,11 +254,13 @@
 .grid {
 
     padding-top: 2rem;
+    
 }
 
 .Bmi_grid {
 
     display: grid;
+    
 
     grid-template-columns: 150px 150px;
 
@@ -274,8 +276,9 @@
 
 .Bmi_grid2 {
 
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-left: 3rem;
+    
     /* margin-right: 5rem; */
 
 }
@@ -285,11 +288,14 @@
     grid-template-columns: repeat(2, 1fr);
 
 }
+.sd{
+    padding-top: 1rem;
+}
 
 .bmi_give {
     border-radius: 15px;
     width: 282.5px;
-    height: 48px;
+    height: 35px;
     position: static;
     margin-top: 5px;
     margin-left: 5px;
@@ -297,6 +303,7 @@
     padding: 12px 40px 12px 20px;
     align-items: center;
     border: none;
+    
 
 }
 
