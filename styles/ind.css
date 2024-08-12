@@ -286,7 +286,27 @@
     padding-top: 40px;
 
 }
-
+@media screen and (max-width:576px) {
+        .Run_part{
+            flex-direction: column;
+            margin-top: 1rem;
+            width: 450px;
+            height: 550px;
+            margin-left: 0.2rem;
+        
+            
+        }
+    
+        .Mile_Easily_con {
+            margin-top: 1rem;
+        }
+    
+        .run_pictue{
+            margin-top: 0.5rem;
+            margin-left: 1rem;
+        }
+    
+    }
 .src {
     width: 100%;
     border-radius: 10px;
@@ -299,6 +319,13 @@
 .bmi_heade {
     font-size: 48px;
     font-weight: 900;
+}
+
+
+@media screen and (max-width:576px) {
+    .bmi {
+        margin-left: 1rem;
+    }
 }
 
 .ekta {
@@ -372,6 +399,8 @@
     
 
 }
+
+
 
 .Me {
     text-align: center;
@@ -451,6 +480,64 @@
     bottom: 1px;
     left: 53.125rem;
     position: absolute;
+
+}
+
+@media screen and (max-width:576px) {
+    .traine-1 {
+        width: 390px;
+        margin-left: 2rem;
+        height: 1850px;
+        margin-top: 1rem;
+        
+    }
+
+    .traine-0{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 2rem;
+        margin-left: 0.7rem;
+
+    }
+
+    .traine1_name{
+        position: absolute;
+        bottom: 1300px;
+        left: 20px;
+        
+        
+    }
+
+    .traine2_name{
+        position: absolute;
+        bottom: 1200px;
+        left: 20px;
+    }
+
+    .traine3_name{
+        position: absolute;
+        bottom: 900px;
+        left: 20px;
+    }
+
+    .traine4_name{
+        position: absolute;
+        bottom: 600px;
+        left: 20px;
+    }
+
+    .traine5_name{
+        position: absolute;
+        bottom: 300px;
+        left: 20px;
+    }
+
+    .traine6_name {
+        position: absolute;
+        bottom: 2px;
+        left: 20px;
+        
+    }
+
 
 }
 
