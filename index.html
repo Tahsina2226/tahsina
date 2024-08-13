@@ -5,27 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/ind.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
 </head>
 <!-- first banner er kaj -->
+
 <body class="inter-fonts">
     <nav class="nav_ber">
-
         <h1 class="Fitness">Fitness</h1>
-
         <ul class="link-packet">
             <button class="home-pres">Home</button>
             <li><a class="li" href="">Service</a></li>
             <li><a class="li" href="">Contact</a></li>
             <li><a class="li" href="">About</a></li>
+            <!-- <label for="check" class="open menu"><i class="fas fa-bars"></i></label> -->
+
         </ul>
+        <div class="bar">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+
+        </div>
     </nav>
     <header class="cl1">
         <div class="white header_side">
             <h1>Get body in</h1>
-            <h1>shape & stay</h1>
+            <h1><span class="miami"> shape </span> & stay</h1>
             <h1>healthy</h1>
-            <p class="gray_write">Health is the greatest gift, contentment the greatest wealth, faithfulness the best relationship. <br>fit and stay fit!</p>
+            <p class="gray_write">Health is the greatest gift, contentment the greatest wealth, faithfulness the best
+                relationship. <br>fit and stay fit!</p>
             <button class="home-press white">join club now!</button>
             <button class="home-press white">Download App</button>
         </div>
@@ -51,8 +63,9 @@
 
     <!-- change your habit -->
     <main class="havit1">
-        <h1 class="havit2 white">change your habits</h1>
-        <p class="havit3 gray_write ">Routine exercise boosts muscle power and enhances your endurance.<br>By keeping active, you ensure a steady supply of oxygen and nutrients
+        <h1 class="havit2 fuska white">change your habits</h1>
+        <p class="havit3 gray_write ">Routine exercise boosts muscle power and enhances your endurance.<br>By keeping
+            active, you ensure a steady supply of oxygen and nutrients
             <br> to your tissues, which helps maintain a robust cardiovascular system.
         </p>
     </main>
@@ -63,7 +76,7 @@
                 <img class="gol" src="images/image 3.png" alt="">
 
             </div>
-            <div>
+            <div class="">
                 <h3 class="white">Movement</h3>
                 <p class="be_fit gray_write">Fitness enhances a person's ability to move more effectively.</p>
 
@@ -97,7 +110,8 @@
             </div>
             <div>
                 <h3 class="white">Weight lose</h3>
-                <p class="gray_write">For individuals looking to lose weight, incorporating regular exercise is a valuable practice</p>
+                <p class="gray_write">For individuals looking to lose weight, incorporating regular exercise is a
+                    valuable practice</p>
             </div>
 
         </div>
@@ -109,15 +123,16 @@
     <section class="Run_part">
         <div class="Mile_Easily_con">
             <h1 class="Mile_Easily white">Run an Extra <br>Mile Easily</h1>
-            <p class="gray_write anyone">Consistent gym-goers and exercisers will find it simpler to conquer extra mileage in any competition
-                </p>
+            <p class="gray_write anyone">Consistent gym-goers and exercisers will find it simpler to conquer extra
+                mileage in any competition
+            </p>
             <div class="anyone">
                 <button class="home-press">join now</button>
             </div>
         </div>
 
         <div class="run_pictue">
-            <img class="src" src="images/run.jpg" alt="">
+            <img class="src" src="images/run .jpg" alt="">
         </div>
 
 
@@ -126,7 +141,8 @@
     <!-- bmi part -->
     <section class="bmi">
         <h1 class="bmi_heade white">BMI Calculator</h1>
-        <p class="gray_write BMI_likha white">Calculating BMI is crucial for evaluating diet and making informed decisions about overall health.</p>
+        <p class="gray_write BMI_likha white">Calculating BMI is crucial for evaluating diet and making informed
+            decisions about overall health.</p>
     </section>
     <section class="calc calc2 white">
         <div class="grid">
@@ -151,18 +167,31 @@
                 <h1>Calculate your BMI</h1>
                 <p class="gray_write">Please Enter your information,you need to know your BMI</p>
             </div>
-            <div class="tahsina">
+            <div class="tahsina gray_write">
                 <input class="bmi_give" type="text" name="" id="" placeholder="Hight/cm">
                 <input class="bmi_give" type="text" name="" id="" placeholder="wight/cm">
                 <input class="bmi_give" type="text" name="" id="" placeholder="AGE">
-                <input class="bmi_give" type="text" name="" id="" placeholder="Sex">
-                <input class="bmi_give" type="text" name="" id="" placeholder="select an activity factor">
+                <select class="bmi_give_sex gray_write">
+                    <option value="">Sex</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
 
-           
-                
+                </select>
+
+                <select class="bmi_give_activity gray_write">
+                    <option value="">select an activity factor</option>
+                    <option value="1-3">1</option>
+                    <option value="  7-8 9 10 ">4-6</option>
+                    <option value="other">7-9</option>
+                    <option value="other">10-12</option>
+
+
+                </select>
+
+
             </div>
             <div class="sd">
-                <button class="home-pres home-press ">Calculate</button>
+                <button class="home-pres home-press home-presss ">Calculate</button>
             </div>
 
         </div>
@@ -171,9 +200,9 @@
 
     </section>
 
-<!-- meet our team -->
+    <!-- meet our team -->
     <section class="Me white ">
-        <h1 class="front">Meet Our Team</h1>
+        <h1 class="fronts">Meet Our Team</h1>
         <p class="likha ">We have a specialized team for working with trainers, and their names are provided below</p>
     </section>
     <section class="traine-1">
@@ -213,12 +242,76 @@
 
 
     </section>
+    <!-- creativity -->
+    <section class="hero">
+        <div class="quote-container">
+            <p class="quote">"Your body can handle nearly everything; it's your mind that needs persuading."</p>
+            <p class="quote">"Success begins when you stop making excuses."</p>
+            <p class="quote">"The only workout that doesn’t count is the one you didn’t complete."</p>
+        </div>
+    </section>
+
+    
+
+
+    <section class="gallery">
+        <div class="photo">
+            <img src="img/pic1.jpg" alt="Before" class="before">
+            <img src="img/pic3.jpg" alt="After" class="after afterr">
+        </div>
+        <div class="photo">
+            <img src="img/pic2.jpg" alt="Before" class="before">
+            <img src="img/pic8.jpg" alt="After" class="after">
+        </div>
+        <div class="photo">
+            <img src="img/pic5.jpg" alt="Before" class="before">
+            <img src="img/pic9.jpg" alt="After" class="after">
+        </div>
+        <div class="photo">
+            <img src="images/pic6.jpg" alt="Before" class="before">
+            <img src="images/pic7.jpg" alt="After" class="after">
+        </div>
+
+    </section>
+
+
+    <section class="user-stories">
+        <h2>Success Stories</h2>
+        <div class="stories-container">
+            <!-- Dynamic content goes here -->
+
+            <form class="submission-form">
+                <h3>Share Your Story</h3>
+                <input type="text" placeholder="Name" required>
+                <textarea placeholder="Your Story" required></textarea>
+                <input type="file" accept="image/*" required>
+                <button class="home-press" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- last part -->
     <footer class="footer1">
         <div class="footer2">
             <h1 class="footer3">Fitness</h1>
-            <p class="gray_write">We recognize the importance of fitness, but<br>it's vital to be more attentive to it. Focusing on fitness can<br> greatly improve productivity.
+            <p class="gray_write">We recognize the importance of fitness, but<br>it's vital to be more attentive to it.
+                Focusing on fitness can<br> greatly improve productivity.
             </p>
         </div>
         <div>
@@ -267,3 +360,4 @@
 </body>
 
 </html>
+
